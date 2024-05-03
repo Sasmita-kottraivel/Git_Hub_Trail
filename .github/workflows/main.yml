@@ -1,0 +1,10 @@
+name: exe1
+on : push
+jobs : 
+  execersie :
+    runs-on : ubuntu-latest 
+    steps :
+    - name : handsome man
+      run : echo "sambu"
+    
+    
