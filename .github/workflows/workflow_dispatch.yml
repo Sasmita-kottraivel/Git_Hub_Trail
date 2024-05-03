@@ -2,8 +2,6 @@ on:
   repository_dispatch:
     types: [opened, deleted]
 
-  
-
 jobs:
   print_hi:
     runs-on: ubuntu-latest
