@@ -7,3 +7,10 @@ on:
         default: 'warning'
       tags:
         description: 'Test scenario tags'  
+
+jobs:
+  print_hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hi
+        run: echo "Hi"
