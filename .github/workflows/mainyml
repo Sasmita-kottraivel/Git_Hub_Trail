@@ -1,0 +1,12 @@
+name: exe1
+on :
+  workflow_dispatch:
+
+jobs : 
+  execersie :
+    runs-on : ubuntu-latest 
+    steps :
+    - name : handsome man
+      run : echo "sambu"
+    
+    
