@@ -1,7 +1,8 @@
 on:
   repository_dispatch:
     types: [opened, deleted]
-
+  workflow_dispatch:
+  
 jobs:
   print_hi:
     runs-on: ubuntu-latest
