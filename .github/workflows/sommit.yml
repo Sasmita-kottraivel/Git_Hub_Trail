@@ -21,4 +21,4 @@ jobs:
           print(os.environ['PATH'])
           
         shell: python
-        working-directory: .github/python
+        # working-directory: .github/python
